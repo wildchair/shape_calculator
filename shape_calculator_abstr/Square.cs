@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace shape_calculator_abstr
+﻿namespace shape_calculator_abstr
 {
     internal class Square : Shape
     {
-        public Square(double side) 
+        public Square(double side)
         {
-            Sides = new double[] { side };
+            if (side > 0)
+                Sides = new double[] { side };
+            else throw new Exception("Сторона должна быть больше 0!");
         }
 
         public override double Area_calc()
