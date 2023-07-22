@@ -8,7 +8,7 @@ namespace shape_calculator_abstr
 {
     internal abstract class Shape
     {
-        public double[] Sides { get; set; }
+        protected double[] Sides { get; set; }
         public double Perimeter_calc()
         {
             double p = 0;
