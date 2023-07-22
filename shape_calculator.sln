@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shape_calculator_interface", "shape calculator\shape_calculator_interface.csproj", "{A8E90B1F-21DA-4CC1-A250-81535FF6ABD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shape_calculator_interface", "shape_calculator_interface\shape_calculator_interface.csproj", "{A8E90B1F-21DA-4CC1-A250-81535FF6ABD5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shape_calculator_abstr", "shape_calculator_abstr\shape_calculator_abstr.csproj", "{B7DF2DBC-2CC4-45FC-B5A6-AADC35AD4D15}"
 EndProject
