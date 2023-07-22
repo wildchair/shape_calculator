@@ -5,7 +5,7 @@
         public Rectangle(double sideA, double sideB)
         {
             if (sideA > 0 && sideB > 0)
-                Sides = new double[] { sideA, sideB };
+                Sides = new double[] { sideA, sideB, sideA, sideB };
             else throw new Exception("Стороны должны быть больше 0!");
         }
         public override double Area_calc()

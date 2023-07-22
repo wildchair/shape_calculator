@@ -5,7 +5,7 @@
         public Square(double side)
         {
             if (side > 0)
-                Sides = new double[] { side };
+                Sides = new double[] { side, side, side, side };
             else throw new Exception("Сторона должна быть больше 0!");
         }
 
