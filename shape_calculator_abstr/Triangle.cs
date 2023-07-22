@@ -11,7 +11,7 @@
 
         public override double Area_calc()
         {
-            double p = this.Perimeter_calc();
+            double p = this.Perimeter_calc()/2;
             return Math.Sqrt(p * (p - Sides[0]) * (p - Sides[1]) * (p - Sides[2]));
         }
     }
